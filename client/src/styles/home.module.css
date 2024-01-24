@@ -1,0 +1,20 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+   min-width: 100vw;
+    position: relative;
+}
+.grid{
+    min-height: 200vh;
+    display: grid;
+   grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+@media screen and (max-width:768px) {
+       
+}
