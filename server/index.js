@@ -20,13 +20,13 @@ mongoose.set('strictQuery', false)
 
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/Linktree").then(()=>{
+mongoose.connect(process.env.MONGO_URI).then(()=>{
     console.log('DB connection successfull')
 }).catch((err)=>{
     console.log({err:"Cant connect to DB"})
 })
 
-const port = 8080
+const port = process.env.PORT || 8080
 app.use(cors());
 
 

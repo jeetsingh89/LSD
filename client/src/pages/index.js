@@ -16,7 +16,8 @@ export default function Home() {
     <div className='relative min-h-screen min-w-full'>
    
     <div className=' min-h-screen min-w-full absolute z-0'>
-      <video src='/images/wbBG.mp4' autoPlay muted loop className=' object-cover min-h-screen  w-1/2 block float-left z-0'></video>
+   
+    <video src='/images/wbBG.mp4' autoPlay muted loop className=' object-cover min-h-screen  w-1/2 block float-left z-0'></video>
       <video src='/images/wbBG2.mp4' autoPlay muted loop className='object-cover min-h-screen w-1/2 block float-right z-0'></video>
     </div>
     <div className=' relative min-h-screen w-1/2 z-10 flex flex-col justify-center align-middle text-center float-left items-center'>

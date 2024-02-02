@@ -29,7 +29,7 @@ const dashBoardUser =  async(req, res)=>{
          }
          console.log(user)
       return res.json({
-        message:"Success from Back", userData, status:"success"
+        message:"Welcome Back", userData, status:"success"
     }) 
         }).catch((error=>{
             return res.json(error);

@@ -45,7 +45,7 @@ function BGImage() {
     return (
       <Box>
         <Image
-          src={`https://source.unsplash.com/${width}x${height}/?space,scifi,futuristic,astrophotography,abstract,psychedelic,blue,red,violet`}
+          src={`https://source.unsplash.com/${width}x${height}/?neon,abstractcolors,space,cyberpunk`}
           width={width}
           height={height}
           z-index = {-100}

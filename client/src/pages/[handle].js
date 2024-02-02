@@ -10,6 +10,7 @@ import UserContext from '../context/userContext';
 import dynamic from "next/dynamic";
 import styled from "styled-components";
 import BGImage from '@/component/BGImage';
+
 //import pagenotfound from './pageNotFound';
 
 
@@ -103,13 +104,13 @@ console.log(data)*/
   }, [router.query])
 
   return (
-    <Wrapper>
+    <Wrapper className=' overflow-y-auto  absolute'>
     
-      <div className='flex flex-col'>
+      <div className='flex flex-col relative'>
 
       
-         <LinkTree data={userData} ></LinkTree>
-         <Socialtrays socialMedia={socialMedia}></Socialtrays>
+         <LinkTree data={userData} className='fixed' ></LinkTree>
+         <Socialtrays socialMedia={socialMedia} ></Socialtrays>
         
          <BGImage></BGImage>
     </div>
