@@ -17,7 +17,7 @@ const navigate = useRouter();
     navigate.push('/addlinks')
  }
 
- const {name, handle, avatar, links} = data
+ const {name, handle, avatar, links} = data || undefined
  //const handle1 = localStorage.getItem('userHandle')
   console.log(name)
   console.log(handle)
