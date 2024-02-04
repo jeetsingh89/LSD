@@ -5,7 +5,7 @@ const corsOptions ={
     origin:'https://suki-rho.vercel.app', 
     methods:["POST", "GET"],
     credentials:true,            //access-control-allow-credentials:true
-    optionSuccessStatus:200,
+    optionSuccessStatus:200
  }
 const {registerUser, loginUser, getUser, getSocialMedia, editProfile, editSocials, loadLinks, editLinks, addLinks} = require('./controllers/auth')
 const {dashBoardUser}= require("./controllers/dashBoard")
