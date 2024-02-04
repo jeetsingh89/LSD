@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const Socialtrays = ({socialMedia}) => {
-  const {facebook, x, instagram, youtube, snapchat, discord} = socialMedia || undefined;
+  const {facebook, x, instagram, youtube, snapchat, discord} = socialMedia || "default";
 
   return (
     <div className=' flex flex-row px-16 py-8 justify-center items-center'>

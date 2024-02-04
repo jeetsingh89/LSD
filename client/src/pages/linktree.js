@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import { useRouter } from 'next/router';
 const LinkTree = ({data}) => {
     const navigate = useRouter();
-    const {name,bio, avatar, handle, links} = data || undefined
+    const {name,bio, avatar, handle, links} = data || "default"
    // toast(links)
     const handleShare = ()=>{
       navigator.clipboard.writeText(`http://localhost:3000/${handle}`)
