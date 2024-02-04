@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const pagenotfound = () => {
@@ -16,7 +17,7 @@ const pagenotfound = () => {
         ></span>
 
         <span class="relative block px-8 py-3 bg-[#1A2238] border border-current">
-          <a href='/'>Go Home</a>
+          <Link href='/'>Go Home</Link>
         </span>
       </div>
     </button>

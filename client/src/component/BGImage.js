@@ -49,6 +49,7 @@ function BGImage() {
           width={width}
           height={height}
           z-index = {-100}
+          alt="Background Image"
         />
       </Box>
     );

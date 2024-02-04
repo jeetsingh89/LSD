@@ -61,8 +61,8 @@ export default function App({ Component, pageProps }) {
     <>
     <GlobalStyle/>
     <ThemeProvider theme={theme}>
-    <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-WYTYXQXVK6`} />
-    <Script strategy="lazyOnload">
+    <Script id="my-app" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-WYTYXQXVK6`} />
+    <Script id="load" strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}

@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import styled from "styled-components";
 import LoginBG from '@/component/LoginBG';
 import styles from '../styles/apply.module.css'
+import Link from 'next/link';
 
 
 const Login = () => {
@@ -61,10 +62,10 @@ const BackgroundImage = dynamic(() => import("../component/Backgroundimage"), {
    
   <section className={styles.background + " min-h-screen min-w-full"} >   
   <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-5 ">
-      <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+      <Link href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
       <img className="w-8 h-8 mr-2" src="/images/logo22.png" alt="logo"/>
           LSD  
-      </a>
+      </Link>
       <div class="w-full bg-white bg-opacity-30 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 class="text-xl font-bold leading-tight tracking-tight   text-black md:text-2xl dark:text-white">
