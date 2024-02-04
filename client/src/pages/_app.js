@@ -56,7 +56,7 @@ export default function App({ Component, pageProps }) {
         router.events.off('routeChangeComplete', handleComplete);
         router.events.off('routeChangeError', handleComplete);
       };
-    }, []);
+    });
   return (
     <>
     <GlobalStyle/>
