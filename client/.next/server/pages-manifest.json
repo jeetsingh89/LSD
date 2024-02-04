@@ -2,21 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/[handle]": "pages/[handle].js",
-  "/addlinks": "pages/addlinks.js",
-  "/adminprofile": "pages/adminprofile.js",
-  "/api/hello": "pages/api/hello.js",
-  "/apply": "pages/apply.js",
-  "/dashboard": "pages/dashboard.js",
-  "/editlinks": "pages/editlinks.js",
-  "/editprofile": "pages/editprofile.js",
-  "/editsocials": "pages/editsocials.js",
   "/": "pages/index.js",
-  "/linkanalytics": "pages/linkanalytics.js",
-  "/linkcontainer": "pages/linkcontainer.js",
-  "/linktree": "pages/linktree.js",
-  "/login": "pages/login.js",
-  "/pagenotfound": "pages/pagenotfound.js",
-  "/profile": "pages/profile.js",
-  "/socialtrays": "pages/socialtrays.js"
+  "/login": "pages/login.js"
 }

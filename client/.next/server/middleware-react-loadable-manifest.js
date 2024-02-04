@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST='{"[handle].js -> ../component/Backgroundimage":{"id":9172,"files":["static/chunks/172.930d08fad7a46db4.js"]},"apply.js -> ../component/Backgroundimage":{"id":9172,"files":["static/chunks/172.930d08fad7a46db4.js"]},"login.js -> ../component/Backgroundimage":{"id":9172,"files":["static/chunks/172.930d08fad7a46db4.js"]}}';
+self.__REACT_LOADABLE_MANIFEST="{\"login.js -> ../component/Backgroundimage\":{\"id\":\"login.js -> ../component/Backgroundimage\",\"files\":[\"static/chunks/src_component_Backgroundimage_js.js\"]}}"
