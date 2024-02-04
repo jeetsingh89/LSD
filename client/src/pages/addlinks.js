@@ -10,7 +10,7 @@ const Addlinks = () => {
           })
     }
     const handleAddLink = ()=>{
-        fetch('http://localhost:8080/save/addlinks',{
+        fetch('https://lsd-wine.vercel.app/save/addlinks',{
             method:'POST',
             headers:{
                 "content-type": "application/json"

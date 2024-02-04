@@ -18,7 +18,7 @@ const Editlinks = () => {
   useEffect(()=>{
    if(!localStorage.getItem('OurToken')) navigate.push('/login')
 
-    fetch('http://localhost:8080/save/links',{
+    fetch('https://lsd-wine.vercel.app/save/links',{
         method:"POST",
         headers:{
           'content-type':'application/json'

@@ -52,7 +52,7 @@ const Editprofile = () => {
   const handleSave1= (e)=>{
     e.preventDefault();
 
-    fetch('http://localhost:8080/save/editprofile', {
+    fetch('https://lsd-wine.vercel.app/save/editprofile', {
       method:'POST',
       headers:{
           "content-type": "application/json"
@@ -73,7 +73,7 @@ const Editprofile = () => {
   const handleSave2= (e)=>{
     e.preventDefault();
 
-    fetch('http://localhost:8080/save/editprofile', {
+    fetch('https://lsd-wine.vercel.app/save/editprofile', {
       method:'POST',
       headers:{
           "content-type": "application/json"
@@ -93,7 +93,7 @@ const Editprofile = () => {
   const handleSave3= (e)=>{
     e.preventDefault();
 
-    fetch('http://localhost:8080/save/editprofile', {
+    fetch('https://lsd-wine.vercel.app/save/editprofile', {
       method:'POST',
       headers:{
           "content-type": "application/json"

@@ -87,7 +87,7 @@ console.log(data)*/
    }*/
    useEffect(()=>{
     if(router.query?.handle){
-      fetch(`http://localhost:8080/get/socials/${router.query.handle}`).then(res=>res.json()).then((data)=>{
+      fetch(`https://lsd-wine.vercel.app/get/socials/${router.query.handle}`).then(res=>res.json()).then((data)=>{
       //  if(data.status==="error"){
         //  toast.error(data.error)
        // }

@@ -48,7 +48,7 @@ const Dashboard = () => {
       if(!localStorage.getItem('OurToken')){
         window.location.href ='/login'
       }
-      fetch('http://localhost:8080/data/dashboard', {
+      fetch('https://lsd-wine.vercel.app/data/dashboard', {
         method: 'POST',
         headers: {
           'content-type': 'application/json'

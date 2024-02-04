@@ -36,7 +36,7 @@ const Apply = () => {
   const handleRegister = (e)=>{
     e.preventDefault();
 
-        fetch('http://localhost:8080/api/register',{
+        fetch('https://lsd-wine.vercel.app/api/register',{
             method:'POST',
             headers:{
                 "content-type": "application/json"

@@ -29,7 +29,7 @@ const Editsocials = () => {
   const handleSave= (e)=>{
     e.preventDefault();
 
-    fetch('http://localhost:8080/save/editsocials', {
+    fetch('https://lsd-wine.vercel.app/save/editsocials', {
       method:'POST',
       headers:{
           "content-type": "application/json"
