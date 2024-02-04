@@ -2,7 +2,8 @@ const express = require('express')
 const mongoose = require('mongoose');
 const cors = require('cors');
 const corsOptions ={
-    origin:'*', 
+    origin:'https://suki-rho.vercel.app', 
+    methods:["POST", "GET"],
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
  }
