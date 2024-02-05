@@ -37,7 +37,10 @@ const port = process.env.PORT || 8080
 
 
 
-
+app.get('/cors', (req, res) => {
+res.set('Access-Control-Allow-Origin', '*');
+res.send({ "msg": "This has CORS enabled 🎈" })
+})
 app.get('/', (req, res)=>{
     res.send(`Server is running at ${port}`)
 })
