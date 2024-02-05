@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styles from '../styles/home.module.css'
-
+import video1 from '../../public/images/wbBG.mp4'
+import video2 from '../../public/images/wbBG2.mp4'
 
 export default function Home() {
   const navigate = useRouter();
@@ -17,8 +18,8 @@ export default function Home() {
    
     <div className=' min-h-screen min-w-full absolute z-0'>
    
-    <video src='images/wbBG.mp4' autoPlay muted loop className=' object-cover min-h-screen  w-1/2 block float-left z-0'></video>
-      <video src='images/wbBG2.mp4' autoPlay muted loop className='object-cover min-h-screen w-1/2 block float-right z-0'></video>
+    <video src={video1} autoPlay muted loop className=' object-cover min-h-screen  w-1/2 block float-left z-0'></video>
+      <video src={video2} autoPlay muted loop className='object-cover min-h-screen w-1/2 block float-right z-0'></video>
     </div>
     <div className=' relative min-h-screen w-1/2 z-10 flex flex-col justify-center align-middle text-center float-left items-center'>
      
