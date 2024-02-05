@@ -2,10 +2,10 @@ const express = require('express')
 const mongoose = require('mongoose');
 const cors = require('cors');
 const corsOptions ={
-    origin:'https://suki-rho.vercel.app', 
+    origin:'*', 
     methods:["POST", "GET"],
     credentials:true,            //access-control-allow-credentials:true
-    optionSuccessStatus:200
+    
  }
 const {registerUser, loginUser, getUser, getSocialMedia, editProfile, editSocials, loadLinks, editLinks, addLinks} = require('./controllers/auth')
 const {dashBoardUser}= require("./controllers/dashBoard")
@@ -14,6 +14,7 @@ const dotenv = require('dotenv')
 const bodyParser = require('body-parser')
 
 const app = express()
+app.use(cors(corsOptions))
 app.use(bodyParser.json({limit:'500mb'}))
 app.use(bodyParser.urlencoded({limit:"500mb", parameterLimit:1000000, extended: true}))
 
@@ -33,7 +34,7 @@ mongoose.connect(process.env.MONGO_URI).then(()=>{
 })
 
 const port = process.env.PORT || 8080
-app.use(cors(corsOptions));
+
 
 
 
