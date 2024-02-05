@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styles from '../styles/home.module.css'
-import video1 from '../../public/images/wbBG.mp4'
-import video2 from '../../public/images/wbBG2.mp4'
+
 
 export default function Home() {
   const navigate = useRouter();
