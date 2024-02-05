@@ -12,16 +12,4 @@ module.exports = {
     domains: ["source.unsplash.com"],
   },
 };
-module.exports = () => {
-  const rewrites = () => {
-    return [
-      {
-        source: "https://lsd-wine.vercel.app/",
-        destination: "https://lsd-wine.vercel.app/",
-      },
-    ];
-  };
-  return {
-    rewrites,
-  };
-};
+
