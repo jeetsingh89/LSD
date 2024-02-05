@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "proxy":"https://lsd-wine.vercel.app/"
   "dependencies": {
     "flowbite": "^2.2.1",
     "framer-motion": "^10.16.16",
