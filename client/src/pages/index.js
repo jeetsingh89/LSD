@@ -18,8 +18,13 @@ export default function Home() {
    
     <div className=' min-h-screen min-w-full absolute z-0'>
    
-    <video src={video1} autoPlay muted loop className=' object-cover min-h-screen  w-1/2 block float-left z-0'></video>
-      <video src={video2} autoPlay muted loop className='object-cover min-h-screen w-1/2 block float-right z-0'></video>
+    <video  autoPlay muted loop className=' object-cover min-h-screen  w-1/2 block float-left z-0'>
+    <source src="/images/wbBG.mp4" type="video/mp4" />
+    </video>
+      <video  autoPlay muted loop className='object-cover min-h-screen w-1/2 block float-right z-0'>
+      <source src="/images/wbBG2.mp4" type="video/mp4" />
+      </video>
+    
     </div>
     <div className=' relative min-h-screen w-1/2 z-10 flex flex-col justify-center align-middle text-center float-left items-center'>
      
